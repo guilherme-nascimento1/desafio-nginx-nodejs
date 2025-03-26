@@ -1,0 +1,16 @@
+{
+  "name": "desafio-go-docker",
+  "version": "1.0.0",
+  "main": "index.js",  
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Projeto Node.js com Nginx e MySQL",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
