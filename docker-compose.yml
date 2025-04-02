@@ -24,7 +24,8 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - "./node-app:/app"      
+      - "./node-app:/app"
+      - "/app/node_modules"  # Volume anônimo para evitar sobrescrita      
     environment:
       - MYSQL_HOST=db
       - MYSQL_USER=root
